@@ -14,8 +14,22 @@ async function deleteItem(userCart, name) {
 }
 
 //remover item do carrinho
-async function removeItem(userCart, idItem) {
-    return item;
+async function removeItem(userCart, item) {
+   const indexFound = userCart.findIndex((p) => p.name === item.name);
+
+    if (indexFound == -1) {
+        console.log("Item não encontrado.")
+        return;
+    }
+
+    if (userCart[indexFound].quantity > 1) {
+        userCart[indexFound].quantity -= 1;
+        return;
+    }
+    
+    if (userCart[indexFound].quantity == 1) {
+        userCart.splice(indexFound, 1);
+    }
 }
 //limpar carrinho
 async function clearCart(userCart) {
