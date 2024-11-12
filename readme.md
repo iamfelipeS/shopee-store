@@ -1,3 +1,18 @@
-##Objetivo
+##CARRINHO DE COMPRAS 
 
-Criar um carrinho de compras baseado no carrinho de compras da Shopee. 
+Carrinho de compras baseado no carrinho de compras da Shopee. 
+
+Adicionar, remover e deletar itens.
+
+Desenvolvendo lógicas baseado em NodeJS/JavaScript para melhorar base de conhecimento.
+
+
+## Required
+
+# NodeJS 
+
+## Running the app
+
+```bash
+
+$ node index.js
