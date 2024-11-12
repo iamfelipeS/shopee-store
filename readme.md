@@ -1,4 +1,4 @@
-##CARRINHO DE COMPRAS 
+# CARRINHO DE COMPRAS 
 
 Carrinho de compras baseado no carrinho de compras da Shopee. 
 
@@ -9,7 +9,7 @@ Desenvolvendo lógicas baseado em NodeJS/JavaScript para melhorar base de conhec
 
 ## Required
 
-# NodeJS 
+ NodeJS 
 
 ## Running the app
 
